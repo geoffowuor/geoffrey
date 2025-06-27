@@ -147,6 +147,98 @@ nav ul{
    background-color: skyblue;
  }
 
+/*about section*/
+
+section .content{
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+.about .about-details{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+section .title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+section .title span{
+  color: #0E2431;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+section .title span::before,
+section .title span::after{
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+section .title span::after{
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-details .left{
+  position: relative;
+  display: inline-block;
+  width: 45%;
+}
+
+.about .left img{
+  display: block;
+    border-radius: 12px; 
+    width: 400px; 
+    height: auto;
+    z-index: 0; 
+    position: relative;
+}
+
+.about-details .right{
+  width: 55%;
+}
+
+section  .topic{
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: "Noto Sans", serif;
+
+}
+.about-details .right p{
+  font-family: "Open Sans", serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-align: justify;
+  color: lightslategray;
+}
+section .button{
+  margin: 16px 0;
+}
+section .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #0E2431;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+section .button button:hover{
+  background-color: black;
+  color: #fff;
+}
+
 /*Skills and tools styling*/
 section h2{
 
@@ -286,98 +378,6 @@ section h2{
    letter-spacing: 0.02em;
    line-height: 1.2;
  }
-/*about section*/
-
-section .content{
-  width: 80%;
-  margin: 40px auto;
-  font-family: 'Poppins', sans-serif;
-}
-.about .about-details{
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: center;
-}
-section .title{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-section .title span{
-  color: #0E2431;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 8px;
-}
-section .title span::before,
-section .title span::after{
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-}
-section .title span::after{
-  bottom: -7px;
-  width: 70%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.about .about-details .left{
-  position: relative;
-  display: inline-block;
-  width: 45%;
-}
-
-.about .left img{
-  display: block;
-    border-radius: 12px; 
-    width: 400px; 
-    height: auto;
-    z-index: 0; 
-    position: relative;
-}
-
-.about-details .right{
-  width: 55%;
-}
-
-section  .topic{
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin-bottom: 10px;
-  font-family: "Noto Sans", serif;
-
-}
-.about-details .right p{
-  font-family: "Open Sans", serif;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-  text-align: justify;
-  color: lightslategray;
-}
-section .button{
-  margin: 16px 0;
-}
-section .button button{
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 15px;
-  font-size: 25px;
-  font-weight: 400;
-  background: #0E2431;
-  color: #fff;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-section .button button:hover{
-  background-color: black;
-  color: #fff;
-}
-
 /*footer*/
 footer{
   position: relative;
