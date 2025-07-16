@@ -197,6 +197,7 @@ section .title span::after{
     border-radius: 12px; 
     width: 400px; 
     height: auto;
+    object-fit: cover;
     z-index: 0; 
     position: relative;
 }
@@ -434,7 +435,7 @@ footer a{
 }
 @media (max-width: 900px) {
   .about .left img{
-    height: 350px;
+    height: auto;
     width: 350px;
   }
 }
