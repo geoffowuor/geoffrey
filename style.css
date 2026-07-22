@@ -335,6 +335,12 @@ h1 span {
   transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
 }
 
+.hero-socials svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
 .hero-socials a:hover {
   border-color: var(--cyan);
   background: var(--cyan-soft);
